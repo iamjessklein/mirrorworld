@@ -39,7 +39,6 @@ body {
     width: 50px;
     height: 50px;
     object-fit: contain;
-    border: 2px solid red; /* Temporary border to see if images are loading */
 }
 
 /* Menu Bar */
