@@ -25,13 +25,13 @@ body {
 
 .left-eye {
     top: calc(35% + 50px);
-    left: calc(40% - 400px);
+    left: calc(50% - 300px);
     transform: translate(-50%, -50%);
 }
 
 .right-eye {
     top: calc(35% + 50px);
-    right: calc(40% - 200px);
+    right: calc(50% - 300px);
     transform: translate(50%, -50%);
 }
 
