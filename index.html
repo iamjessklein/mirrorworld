@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica Klein - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Face overlay -->
+    <div class="face-overlay">
+        <div class="face-container">
+            <!-- This would be replaced with your actual photo -->
+            <div class="face-placeholder">
+                <div class="glasses"></div>
+                <div class="headphones"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu Bar -->
+    <div class="menu-bar">
+        <div class="menu-left">
+            <span class="time">Wed Sep 11:22 AM</span>
+        </div>
+        <div class="menu-right">
+            <span class="reversed-text">Jessica Klein LinkedIn GitHub</span>
+            <div class="settings-icon">⚙️</div>
+        </div>
+    </div>
+
+    <!-- Desktop Icons -->
+    <div class="desktop-icons">
+        <div class="icon" data-project="case1">
+            <div class="folder-icon"></div>
+            <span class="icon-label">CASE1_1</span>
+        </div>
+        <div class="icon" data-project="case2">
+            <div class="folder-icon"></div>
+            <span class="icon-label">CASE2_1</span>
+        </div>
+        <div class="icon" data-project="case3">
+            <div class="folder-icon"></div>
+            <span class="icon-label">CASE3_1</span>
+        </div>
+        <div class="icon" data-project="case4">
+            <div class="folder-icon"></div>
+            <span class="icon-label">CASE4_1</span>
+        </div>
+    </div>
+
+    <!-- Dock -->
+    <div class="dock">
+        <div class="dock-item" data-app="trash">
+            <div class="app-icon trash-icon">🗑️</div>
+        </div>
+        <div class="dock-item" data-app="home">
+            <div class="app-icon home-icon">📁</div>
+        </div>
+        <div class="dock-item" data-app="notes">
+            <div class="app-icon notes-icon">📝</div>
+        </div>
+        <div class="dock-item" data-app="photos">
+            <div class="app-icon photos-icon">🌸</div>
+        </div>
+        <div class="dock-item" data-app="mail">
+            <div class="app-icon mail-icon">✉️</div>
+        </div>
+    </div>
+
+    <!-- Portfolio Content Windows -->
+    <div class="window" id="portfolio-window" style="display: none;">
+        <div class="window-header">
+            <div class="window-controls">
+                <div class="control close"></div>
+                <div class="control minimize"></div>
+                <div class="control maximize"></div>
+            </div>
+            <div class="window-title">Portfolio</div>
+        </div>
+        <div class="window-content">
+            <div class="portfolio-content">
+                <h1>Jessica Klein</h1>
+                <p>Creative Developer & Designer</p>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Project 1</h3>
+                        <p>Description of your amazing project...</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 2</h3>
+                        <p>Another incredible project...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="bookshelf">
+            <div class="shelf"></div>
+            <div class="shelf"></div>
+            <div class="shelf"></div>
+            <div class="shelf"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
