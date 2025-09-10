@@ -24,14 +24,14 @@ body {
 }
 
 .left-eye {
-    top: 40%;
-    left: 45%;
+    top: 35%;
+    left: 40%;
     transform: translate(-50%, -50%);
 }
 
 .right-eye {
-    top: 40%;
-    right: 45%;
+    top: 35%;
+    right: 40%;
     transform: translate(50%, -50%);
 }
 
