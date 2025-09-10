@@ -31,7 +31,7 @@ body {
 
 .right-eye {
     top: calc(35% - 60px);
-    right: calc(40% - 20px);
+    right: calc(40% + 20px);
     transform: translate(50%, -50%);
 }
 
