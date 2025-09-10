@@ -45,7 +45,7 @@ body {
 .menu-right {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 4px;
 }
 
 .reversed-text {
