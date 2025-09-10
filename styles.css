@@ -25,7 +25,7 @@ body {
 
 .left-eye {
     top: calc(35% + 50px);
-    left: calc(50% - 150px);
+    left: calc(50% - 120px);
     transform: translate(-50%, -50%);
 }
 
