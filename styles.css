@@ -9,37 +9,14 @@ body {
     height: 100vh;
     overflow: hidden;
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-    background-image: url('noeyeballs.jpg');
+    background-image: url('background.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
 }
 
-/* Eye overlays */
-.eye-overlay {
-    position: fixed;
-    z-index: 1000;
-    pointer-events: none;
-}
-
-.left-eye {
-    top: calc(35% + 50px);
-    left: calc(50% - 120px);
-    transform: translate(-50%, -50%);
-}
-
-.right-eye {
-    top: calc(35% + 50px);
-    right: calc(50% - 150px);
-    transform: translate(50%, -50%);
-}
-
-.eye-image {
-    width: 1200px;
-    height: 1200px;
-    object-fit: contain;
-}
+/* Eye overlays removed */
 
 /* Menu Bar */
 .menu-bar {
