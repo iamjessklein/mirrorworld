@@ -24,13 +24,13 @@ body {
 }
 
 .left-eye {
-    top: calc(35% + 300px);
+    top: calc(35% + 100px);
     left: calc(40% - 200px);
     transform: translate(-50%, -50%);
 }
 
 .right-eye {
-    top: calc(35% + 300px);
+    top: calc(35% + 100px);
     right: calc(40% - 200px);
     transform: translate(50%, -50%);
 }
