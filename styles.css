@@ -35,7 +35,7 @@ body {
 }
 
 .menu-left .time {
-    color: white;
+    color: #333;
     font-size: 14px;
     font-weight: 500;
 }
@@ -47,14 +47,14 @@ body {
 }
 
 .reversed-text {
-    color: white;
+    color: #333;
     font-size: 14px;
     font-weight: 500;
     transform: scaleX(-1);
 }
 
 .menu-link {
-    color: white;
+    color: #333;
     text-decoration: none;
     transition: opacity 0.2s;
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .settings-icon {
-    color: white;
+    color: #333;
     font-size: 16px;
     cursor: pointer;
     transition: transform 0.2s;
