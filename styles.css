@@ -59,6 +59,7 @@ body {
     color: #333;
     text-decoration: none;
     transition: opacity 0.2s;
+    margin-left: 12px;
 }
 
 .menu-link:hover {
