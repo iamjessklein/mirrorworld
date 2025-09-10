@@ -11,7 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
             minute: '2-digit',
             hour12: true
         });
-        document.querySelector('.time').textContent = timeString;
+        // Reverse the text for the mirror effect
+        const reversedTimeString = timeString.split('').reverse().join('');
+        document.querySelector('.time').textContent = reversedTimeString;
     }
 
     // Update time every minute

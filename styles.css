@@ -38,6 +38,8 @@ body {
     color: #333;
     font-size: 14px;
     font-weight: 500;
+    transform: scaleX(-1);
+    display: inline-block;
 }
 
 .menu-right {
@@ -73,6 +75,12 @@ body {
 
 .settings-icon:hover {
     transform: rotate(90deg);
+}
+
+.flower-icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
 }
 
 /* Desktop Icons */
@@ -295,8 +303,21 @@ body {
 
 /* Background bookshelf styles removed */
 
+/* Name display control */
+.name-short {
+    display: none;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
+    .name-full {
+        display: none;
+    }
+    
+    .name-short {
+        display: inline;
+    }
+    
     .desktop-icons {
         left: 20px;
         gap: 15px;
