@@ -91,8 +91,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const projects = {
             case1: {
                 title: "Hackasaurus",
-                description: "Web development learning experiences for youth",
-                details: "<h3>Challenge</h3><p>It's difficult to ask teens to go into sandbox environments to learn how to edit the Web.</p><h3>Engagement Strategy</h3><p>Run hack-jams with the New York and Chicago Public Libraries to user test how might we design web development learning experiences that meet youth where they are on the Web.</p><h3>Design Strategy</h3><p>Help teens remix the websites that they regularly with a bookmarklet. Teach the educators who support youth hackers so that they can be involved in the learning activity.</p><h3>Solution</h3><p>We designed a bookmarklet and curriculum to make it easy for anyone to uncover and mess around with the building blocks that make up the web— empowering them to move from digital consumer. The X-Ray Goggles bookmarklet helps you to look under the hood of a website and then remix the code.</p><h3>Process</h3><p>This project was conceived of, designed, and, implemented with Atul Varma. during our time at Mozilla. We worked very closely with radical librarians in New York and Chicago initially, and this morphed into a huge international collaboration with educators and youth from Newark to Nairobi. We worked iteratively, testing and tweaking the tools and updating (and localizing) the curriculum.</p>"
+                description: "How might we turn everyday browsing into an entry point for learning to code?",
+                details: "<p>I co-created Hackasaurus at Mozilla, a project that reimagined how teens learn web development by meeting them where they already are—on the web itself. Instead of abstract sandbox environments, we designed playful tools and curriculum that empowered youth to remix real websites using the X-Ray Goggles bookmarklet. Working closely with librarians in New York and Chicago, we piloted \"hack jams\" to test and refine the approach, and then scaled it internationally with educators and youth from Newark to Nairobi. This collaborative, iterative process not only gave teens a hands-on way to understand the building blocks of the web, but also helped educators actively support their learning. I'm proud of this project because it shaped how out-of-school programs approach coding, turning digital consumers into creators.</p>"
             },
             case2: {
                 title: "Mobile App Design",
@@ -133,8 +133,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                 </div>
                 <div class="project-links">
-                    <button class="btn btn-primary">View Live Demo</button>
-                    <button class="btn btn-secondary">View Code</button>
+                    <a href="http://hackasaurus.toolness.org/en-US/" target="_blank" class="btn btn-primary">Try it</a>
+                    <a href="https://www.youtube.com/watch?v=AOSAx7karNg" target="_blank" class="btn btn-secondary">Watch demo</a>
                 </div>
             </div>
         `;
