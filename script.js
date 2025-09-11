@@ -91,8 +91,21 @@ document.addEventListener('DOMContentLoaded', function() {
         const projects = {
             case1: {
                 title: "Hackasaurus",
-                description: "Full-stack e-commerce solution with React and Node.js",
-                details: "Built a complete online shopping platform with user authentication, payment processing, and inventory management. Features include real-time notifications, advanced search, and responsive design."
+                description: "Web development learning experiences for youth",
+                details: `<h3>Challenge</h3>
+                <p>It's difficult to ask teens to go into sandbox environments to learn how to edit the Web.</p>
+                
+                <h3>Engagement Strategy</h3>
+                <p>Run hack-jams with the New York and Chicago Public Libraries to user test how might we design web development learning experiences that meet youth where they are on the Web.</p>
+                
+                <h3>Design Strategy</h3>
+                <p>Help teens remix the websites that they regularly with a bookmarklet. Teach the educators who support youth hackers so that they can be involved in the learning activity.</p>
+                
+                <h3>Solution</h3>
+                <p>We designed a bookmarklet and curriculum to make it easy for anyone to uncover and mess around with the building blocks that make up the web— empowering them to move from digital consumer. The X-Ray Goggles bookmarklet helps you to look under the hood of a website and then remix the code.</p>
+                
+                <h3>Process</h3>
+                <p>This project was conceived of, designed, and, implemented with Atul Varma. during our time at Mozilla. We worked very closely with radical librarians in New York and Chicago initially, and this morphed into a huge international collaboration with educators and youth from Newark to Nairobi. We worked iteratively, testing and tweaking the tools and updating (and localizing) the curriculum.</p>`
             },
             case2: {
                 title: "Mobile App Design",
