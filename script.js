@@ -119,8 +119,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         content.innerHTML = `
             <h1>${projectData.title}</h1>
-            <div class="message-divider"></div>
-            <p>${projectData.description}</p>
+            <div class="title-section">
+                <div class="message-divider"></div>
+                <p>${projectData.description}</p>
+            </div>
             <div class="project-details">
                 <p>${projectData.details}</p>
                 <div class="project-links">
