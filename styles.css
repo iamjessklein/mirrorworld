@@ -265,6 +265,15 @@ body {
     margin-bottom: 30px;
 }
 
+.title-section p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    color: #000;
+    font-weight: bold;
+}
+
 .message-divider {
     width: 2px;
     height: 40px;

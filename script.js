@@ -72,6 +72,15 @@ document.addEventListener('DOMContentLoaded', function() {
     function openPortfolioWindow(project) {
         // Update content based on project
         updatePortfolioContent(project);
+        
+        // Update window title
+        const windowTitle = document.getElementById('window-title');
+        if (project === 'case1') {
+            windowTitle.textContent = 'Portfolio: Hackasaurus';
+        } else {
+            windowTitle.textContent = 'Portfolio';
+        }
+        
         portfolioWindow.style.display = 'block';
         
         // Add entrance animation
@@ -118,7 +127,6 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         content.innerHTML = `
-            <h1>${projectData.title}</h1>
             <div class="title-section">
                 <div class="message-divider"></div>
                 <p>${projectData.description}</p>
