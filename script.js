@@ -122,16 +122,6 @@ document.addEventListener('DOMContentLoaded', function() {
             <p>${projectData.description}</p>
             <div class="project-details">
                 <p>${projectData.details}</p>
-                <div class="tech-stack">
-                    <h3>Technologies Used:</h3>
-                    <div class="tech-tags">
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">JavaScript</span>
-                        <span class="tech-tag">CSS3</span>
-                        <span class="tech-tag">HTML5</span>
-                    </div>
-                </div>
                 <div class="project-links">
                     <a href="http://hackasaurus.toolness.org/en-US/" target="_blank" class="btn btn-primary">Try it</a>
                     <a href="https://www.youtube.com/watch?v=AOSAx7karNg" target="_blank" class="btn btn-secondary">Watch demo</a>
