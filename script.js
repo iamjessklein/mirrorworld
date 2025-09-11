@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const projects = {
             case1: {
-                title: "E-Commerce Platform",
+                title: "Hackasaurus",
                 description: "Full-stack e-commerce solution with React and Node.js",
                 details: "Built a complete online shopping platform with user authentication, payment processing, and inventory management. Features include real-time notifications, advanced search, and responsive design."
             },
