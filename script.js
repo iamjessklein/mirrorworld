@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 openPortfolioWindow('main');
                 break;
             case 'notes':
-                showNotification('Notes app would open here');
+                showCaseStudiesTable();
                 break;
             case 'photos':
                 showNotification('Photo gallery would open here');
@@ -163,6 +163,62 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function showSettings() {
         showNotification('Settings panel would open here');
+    }
+
+    function showCaseStudiesTable() {
+        const caseStudiesTable = document.getElementById('case-studies-table');
+        const tableBody = document.getElementById('studies-table-body');
+        
+        // Case studies data
+        const caseStudies = [
+            {
+                project: 'Hackasaurus',
+                description: 'How might we turn everyday browsing into an entry point for learning to code?',
+                status: 'COMPLETED'
+            },
+            {
+                project: 'Mobile App Design',
+                description: 'iOS/Android app for fitness tracking',
+                status: 'IN PROGRESS'
+            },
+            {
+                project: 'Data Visualization Dashboard',
+                description: 'Interactive dashboard for business analytics',
+                status: 'COMPLETED'
+            },
+            {
+                project: 'AI-Powered Chatbot',
+                description: 'Customer service automation solution',
+                status: 'PLANNED'
+            }
+        ];
+
+        // Clear existing table content
+        tableBody.innerHTML = '';
+
+        // Populate table with case studies
+        caseStudies.forEach(study => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${study.project}</td>
+                <td>${study.description}</td>
+                <td class="status-${study.status.toLowerCase().replace(' ', '-')}">${study.status}</td>
+            `;
+            tableBody.appendChild(row);
+        });
+
+        // Show the table
+        caseStudiesTable.style.display = 'block';
+        
+        // Add a small animation effect
+        caseStudiesTable.style.opacity = '0';
+        caseStudiesTable.style.transform = 'translateY(10px)';
+        
+        setTimeout(() => {
+            caseStudiesTable.style.transition = 'all 0.3s ease-out';
+            caseStudiesTable.style.opacity = '1';
+            caseStudiesTable.style.transform = 'translateY(0)';
+        }, 10);
     }
 
     function showNotification(message) {
