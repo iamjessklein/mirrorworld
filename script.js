@@ -142,6 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function handleDockClick(app) {
+        console.log('Dock clicked:', app); // Debug log
         switch(app) {
             case 'trash':
                 showNotification('Trash emptied!');
@@ -150,6 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 openPortfolioWindow('main');
                 break;
             case 'notes':
+                console.log('Notes app clicked, calling showCaseStudiesTable'); // Debug log
                 showCaseStudiesTable();
                 break;
             case 'photos':
@@ -166,8 +168,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function showCaseStudiesTable() {
+        console.log('showCaseStudiesTable function called'); // Debug log
+        
         const caseStudiesTable = document.getElementById('case-studies-table');
         const tableBody = document.getElementById('studies-table-body');
+        
+        console.log('caseStudiesTable element:', caseStudiesTable); // Debug log
+        console.log('tableBody element:', tableBody); // Debug log
+        
+        if (!caseStudiesTable || !tableBody) {
+            console.error('Required elements not found!');
+            return;
+        }
         
         // Case studies data
         const caseStudies = [
@@ -209,6 +221,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Show the table
         caseStudiesTable.style.display = 'block';
+        console.log('Table should now be visible'); // Debug log
         
         // Add a small animation effect
         caseStudiesTable.style.opacity = '0';
